@@ -1,0 +1,12 @@
+Implementazione del metodo initiliaze(scs[]) in AccumulatorResultSet per modificare lo score del result set ottenuto
+
+VSM fa il vector space model calcolando le norme al momento
+
+VectorNormalizer è un programma java a parte che usa Preprocessing per creare le norme a priori.
+
+VSMOffline usa le norme a priori che vanno ovviamente calcolate prima
+
+
+Scusate le note brevi, più in la se ci son dubbi ne parliamo su FB ;-)
+PS: initialise si implementa semplicemente con una copia del vettore degli score, capirete meglio leggendo il listato, poi cmq ci becchiamo
+e ne parliamo
