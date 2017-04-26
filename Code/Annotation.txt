@@ -1,0 +1,10 @@
+Implementation of the unimplemented method initiliaze(scs[]) of class AccumulatorResultSet, to allow me to modify the result set's score obtained
+
+The VSM class retrieve the file using the classi vector space model, computing the L2 norm online.
+
+VectorNormalizer it's a stand-alone class which compute the L2 norm of the documents a priori
+
+The VSM class retrieve the file using the class vector space model using the L2 norm pre-computed by VectorNormalizer
+
+TF_IDF2 is a matching model obtained modifying the Terrier's standard TF_IDF model, deleting the Robertson's norm. It's possible to set it from the .properties of Terrier. It necessites to be in the src folder of the others matching models
+
